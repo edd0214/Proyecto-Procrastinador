@@ -1,0 +1,31 @@
+.CreateButton{    
+
+    background-color: hsl(327, 94%, 68%);
+    box-shadow: 5px 5px 15px 15px #ad61faaf;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: hsl(199, 83%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    transform: rotate(0);
+    transition: .9s ease-in-out;
+  
+    z-index: 1;
+  }
+  
+  .CreateButton:hover{
+      transform: rotate(360deg);
+      color: slateblue;
+      box-shadow: 10px 10px 20px 20px #556ce4af;
+      background-color: aquamarine;
+  }
+  

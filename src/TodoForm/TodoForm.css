@@ -1,0 +1,73 @@
+form{
+    width: 75%;
+    max-width: 500px;
+    background: linear-gradient();
+    padding: 40px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(43, 226, 141);
+    margin-bottom: 30px;
+    
+    
+}
+
+textarea{
+    background: linear-gradient();
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px 10px rgba(165, 180, 71, 0.4);
+    color: violet;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+    width: calc(100% - 30px);
+}
+
+textarea::placeholder{
+    color: teal;
+    font-weight: 600;    
+}
+
+textarea:focus{
+    outline-color: blue;
+}
+
+.Button-container{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.TodoForm-button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    color: cornflowerblue;
+    font-weight: 600;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: aqua;
+}
+
+.Button-add {
+    background: rgb(189, 239, 114);
+    box-shadow: 2px 3px 5px 5px rgba(165, 180, 71, 0.4);    
+}
+
+.Button-cancel {
+    background: transparent;
+    color: tomato;
+
+}

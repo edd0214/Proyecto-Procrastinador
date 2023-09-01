@@ -1,0 +1,14 @@
+.ModalCreate{
+    background-color: rgba(35, 201, 251, 0.3);
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
