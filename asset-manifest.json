@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Proyecto-Procrastinador/static/css/main.00408f0b.css",
+    "main.js": "/Proyecto-Procrastinador/static/js/main.237be82c.js",
+    "index.html": "/Proyecto-Procrastinador/index.html",
+    "main.00408f0b.css.map": "/Proyecto-Procrastinador/static/css/main.00408f0b.css.map",
+    "main.237be82c.js.map": "/Proyecto-Procrastinador/static/js/main.237be82c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00408f0b.css",
+    "static/js/main.237be82c.js"
+  ]
+}
